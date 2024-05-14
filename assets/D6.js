@@ -182,11 +182,17 @@ const addRow = function () {};
 /* ESERCIZIO 14
        Crea una funzione che nasconda le immagini della tabella quando eseguita
      */
-
-const hideAllImages = function () {};
-
+console.log("Esercizio 14");
+const hideAllImages = function () {
+  const noImg = document.querySelectorAll("img");
+  noImg.forEach((image) => {
+    image.style.display = "none";
+  });
+};
+hideAllImages();
 /* EXTRA ESERCIZIO 15
        Crea una funzione che cambi il colore del h2 con id "changeMyColor" con un colore random ad ogni click ricevuto
      */
+console.log("Esercizio 15");
 
 const changeColorWithRandom = function () {};
